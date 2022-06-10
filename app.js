@@ -7,7 +7,7 @@ const PageTransitions = () => {
     //Button click toggles active class
    sectBtn.forEach(button => {
        button.addEventListener('click', e => {
-           
+
         toggleBtns(e)
         toggleSections(e)
 
